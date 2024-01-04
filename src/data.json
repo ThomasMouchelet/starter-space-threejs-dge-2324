@@ -1,0 +1,104 @@
+[
+    {
+      "name": "Solar 1",
+      "color": "#ffff00",
+      "texture": "assets/images/sun.jpeg",
+      "radius": 5,
+      "position": {
+        "x": 10,
+        "y": 10,
+        "z": 10
+      },
+      "planetsData": [
+        {
+          "name": "Planète Centrale",
+          "isCentral": true,
+          "radius": 5,
+          "color": "#ffff00",
+          "texture": "assets/images/sun.jpeg",
+          "speedRotate": 0.0001
+        },
+        {
+          "name": "Planète A",
+          "isCentral": false,
+          "orbitRadius": 20,
+          "orbitSpeed": 0.0005,
+          "radius": 2,
+          "color": "#ff0000",
+          "texture": "assets/images/venus.jpg",
+          "speedRotate": 0.005
+        },
+        {
+          "name": "Planète B",
+          "isCentral": false,
+          "orbitRadius": 30,
+          "orbitSpeed": 0.0003,
+          "radius": 3,
+          "color": "#00ff00",
+          "texture": "assets/images/venus.jpg",
+          "speedRotate": 0.003
+        },
+        {
+          "name": "Planète c",
+          "isCentral": false,
+          "orbitRadius": 40,
+          "orbitSpeed": 0.0005,
+          "radius": 5,
+          "color": "#00ff00",
+          "texture": "assets/images/venus.jpg",
+          "speedRotate": 0.009
+        }
+      ]
+    },
+    {
+      "name": "Solar 2",
+      "color": "#66c3d1",
+      "texture": "assets/images/venus.jpg",
+      "radius": 5,
+      "position": {
+        "x": 500,
+        "y": 10,
+        "z": 10
+      },
+      "planetsData": [
+        {
+          "name": "Planète Centrale",
+          "isCentral": true,
+          "radius": 7,
+          "color": "#66c3d1",
+          "texture": "assets/images/venus.jpg",
+          "speedRotate": 0.001
+        },
+        {
+          "name": "Planète A",
+          "isCentral": false,
+          "orbitRadius": 30,
+          "orbitSpeed": 0.0005,
+          "radius": 4,
+          "color": "#ff0000",
+          "texture": "assets/images/venus.jpg",
+          "speedRotate": 0.005
+        },
+        {
+          "name": "Planète B",
+          "isCentral": false,
+          "orbitRadius": 30,
+          "orbitSpeed": 0.0003,
+          "radius": 3,
+          "color": "#00ff00",
+          "texture": "assets/images/venus.jpg",
+          "speedRotate": 0.003
+        },
+        {
+          "name": "Planète c",
+          "isCentral": false,
+          "orbitRadius": 40,
+          "orbitSpeed": 0.0005,
+          "radius": 5,
+          "color": "#00ff00",
+          "texture": "assets/images/venus.jpg",
+          "speedRotate": 0.009
+        }
+      ]
+    }
+  ]

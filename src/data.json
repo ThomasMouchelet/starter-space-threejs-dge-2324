@@ -72,7 +72,7 @@
         {
           "name": "Planète A",
           "isCentral": false,
-          "orbitRadius": 30,
+          "orbitRadius": 40,
           "orbitSpeed": 0.0005,
           "radius": 4,
           "color": "#ff0000",
@@ -82,7 +82,7 @@
         {
           "name": "Planète B",
           "isCentral": false,
-          "orbitRadius": 30,
+          "orbitRadius": 60,
           "orbitSpeed": 0.0003,
           "radius": 3,
           "color": "#00ff00",
@@ -92,7 +92,7 @@
         {
           "name": "Planète c",
           "isCentral": false,
-          "orbitRadius": 40,
+          "orbitRadius": 80,
           "orbitSpeed": 0.0005,
           "radius": 5,
           "color": "#00ff00",

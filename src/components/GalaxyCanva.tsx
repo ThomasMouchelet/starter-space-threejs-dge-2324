@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { findAll } from "../services/solar-sytem.service";
 import SolarSystem from "../threejs/SolarSystem";
-import TWEEN from "@tweenjs/tween.js";
+import * as TWEEN from "@tweenjs/tween.js";
 import createStarField from "../threejs/create_stars";
 import initializeScene from "../threejs/InitializeScene";
 import { clickPlanetListener, hoverPlanetListener } from "../threejs/EventsScene";

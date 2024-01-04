@@ -130,8 +130,8 @@ export default class SolarSystem {
                 const planetMesh = this.createPlanet(planetData);
                 if (planetData.isCentral) {
                     this.solarSystemMesh = planetMesh;
-                    this.addTextToSolarSystem(planetData.name, planetMesh);
                     this.addCircleToSolarSystem(planetMesh);
+                    // this.addTextToSolarSystem(planetData.name, planetMesh);
                 } else {
                     planetMesh.orbitRadius = planetData.orbitRadius;
                     planetMesh.orbitSpeed = planetData.orbitSpeed;
@@ -158,7 +158,6 @@ export default class SolarSystem {
         const textureLoader = new THREE.TextureLoader();
         // Faire la forme ronde avec la taille
         const geometry = new THREE.SphereGeometry(planetData.radius, 64, 64);
-        
         // Ajouter la texture
         const materielConfig = {
             map: textureLoader.load(planetData.texture)
@@ -174,11 +173,9 @@ export default class SolarSystem {
         sphereMesh.receiveShadow = true; // Permet à la planète de recevoir des ombres
         
         sphereMesh.position.y = this.solarSytemPosition.y;
-        // sphereMesh.position.x = this.solarSytemPosition.x;
-        // sphereMesh.position.z = this.solarSytemPosition.z;
         sphereMesh.speedRotate = planetData.speedRotate;
         sphereMesh.name = planetData.name;
-
+        
         if (planetData.isCentral || this.solarMode === false) {
             sphereMesh.position.x = this.solarSytemPosition.x;
             sphereMesh.position.z = this.solarSytemPosition.z;

@@ -60,6 +60,10 @@ const createCamera = (scene: THREE.Scene) => {
         0.1,
         3000
     );
+
+    // Default position camera
+    camera.position.set(0, 0, 1000);
+
     scene.add(camera);
 
     return camera;
